@@ -41,7 +41,6 @@ padding-left:auto;}
 .mission-container{display: flex;
 flex-wrap: wrap;
 justify-content: center;
-font-size: 30px;
 font-family: Helvetica;
 color: seashell;
 font-weight: bold;
@@ -49,14 +48,14 @@ text-align: center;
 height:700px;
 }
 
-.content{background-color: black;
+.mission-content{background-color: black;
 width:100%;
 display: block;
 margin-bottom: 300px;
 margin-top:300px;
 }
 
-h2{display: block;
+.mission-title{display: block;
 font-size: 30px;
 font-family: Helvetica;
 color: seashell;
@@ -65,10 +64,72 @@ text-align: center;
 padding:10px 10px;
 margin-top: 10px;}
 
-h4{display: block;
-font-size: 20px;
+.mission-blurb{display: block;
+font-size: 22px;
 font-family: Helvetica;
 color: seashell;
 font-weight: bold;
 text-align: center;
 padding:10px 10px;}
+
+.featured-container{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+font-size: 30px;
+font-family: Helvetica;
+color: seashell;
+font-weight: bold;
+text-align: center;
+height:700px;
+background-color: black;
+width:100%;
+}
+
+.featured-content{align-items: center;
+}
+
+.featured-title{display: block;
+font-size: 30px;
+font-family: Helvetica;
+color: seashell;
+font-weight: bold;
+text-align: center;
+padding:10px 10px;
+margin-top: 50px;}
+
+.featured-blurb{display: block;
+font-size: 22px;
+font-family: Helvetica;
+color: seashell;
+font-weight: bold;
+text-align: center;
+padding:0px 10px;
+margin-top: auto;}
+
+.featured-tea{display:flex;
+  flex-direction: inline-block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+width: 1000px;}
+
+.berrytea{display:flex;
+flex-direction: column;
+margin-left: 100px;}
+
+.spicedrum{display:flex;
+flex-direction: column;}
+
+.donuts{display:flex;
+flex-direction: column;}
+
+.myrtle-ave{display:flex;
+flex-direction: column;}
+
+.bedford{display:flex;
+flex-direction: column;}
+
+.tea-text{font-size: 22px;
+font-family: Helvetica;
+color: seashell;
+font-weight: bold;
+text-align: center;}
